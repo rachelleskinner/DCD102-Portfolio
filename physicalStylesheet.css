@@ -1,0 +1,120 @@
+body {
+ background-color: #94D2BD;
+ font-family: 'Comfortaa', cursive;
+ margin: 10%;
+ margin-top: 5%;
+}
+a {
+ color: black;
+ text-decoration: none;
+}
+#heading{
+    background-color: #0A9396;
+    height: 12vmax;
+    width: 75vmax;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+}
+#title{
+    font-family: 'Fascinate', cursive;
+    letter-spacing: 4px;
+    font-size: 6vmax;
+    position: absolute;
+    top: -0.7em;
+}
+#author{
+    font-weight: 700;
+    position: absolute;
+    bottom: 1.5em;
+    right: 1em;
+    background-color: white;
+    padding: 1vmax;
+    border-radius: 8px;
+    font-size: 1.7vmax;
+}
+#author:hover{
+    background-color: #005F73;
+    cursor: pointer;
+    color: white;
+}
+#designer{
+    font-weight: 700;
+    position: absolute;
+    bottom: 0em;
+    right: 1em;
+    font-size: 1.7vmax;
+}
+#entireNavigation{
+    float: right;
+    width: 25vmax;
+    height: 30vmax;
+    position: relative;
+    right: 4em;
+    margin-top: 1.5em;
+}
+#navMenuTitle{
+    text-align:center;
+    height: 7vmax;
+    width: 23vmax;
+    background-color: #BB3E03;
+    border-radius: 8px;
+    font-family: 'Fascinate', cursive;
+    font-size: 2.5vmax;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+}
+#navMenuTitle h3{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#navMenu{
+    text-align: left;
+    line-height: 3.5;
+    background-color: #CA6702;
+    border-left-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: .7em; 
+    height: 16.5vmax;
+    padding: 1em;
+    position: absolute;
+    top: 8.2vmax;
+    right: 0px;
+    left: 0px;
+}
+.navItem{
+   background-color: white;
+   border-radius: 8px;
+   font-size: 1.5vmax;
+   padding: 1vmax;
+}
+.navItem:hover{
+    background-color: #005F73;
+    color: white;
+    cursor: pointer;
+}
+#currentPage{
+    background-color: #005F73;
+    color: white;
+    cursor: default;
+}
+#textProducer{
+    background-color: #EE9B00;
+    margin-top: 1em;
+    width: 42vmax;
+    height: 50vmax;
+    padding: 1em;
+    border-radius: 8px;
+    position: relative;
+    left: 1.5em;
+    font-size: 1.8vmax;
+}

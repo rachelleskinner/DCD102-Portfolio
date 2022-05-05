@@ -1,0 +1,107 @@
+body {
+ background-color: #E9C46A;
+ font-family: 'Space Grotesk', sans-serif;
+ margin: 10%;
+ margin-top: 5%;
+}
+a {
+ color: black;
+ text-decoration:;
+}
+a:hover{
+    color: white;
+}
+#heading{
+    background-color: #2A9D8F;
+    height: 12vmax;
+    width: 75vmax;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+}
+#title{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+    font-size: 6.5vmax;
+    position: absolute;
+    top: -0.7em;
+}
+#author{
+    font-weight: 700;
+    position: absolute;
+    bottom: 1.5em;
+    right: 1em;
+    font-size: 1.7vmax;
+}
+#designer{
+    font-weight: 700;
+    position: absolute;
+    bottom: 0px;
+    right: 1em;
+    font-size: 1.7vmax;
+}
+#entireNavigation{
+    float: right;
+    width: 25vmax;
+    height: 30vmax;
+    position: relative;
+    right: 4em;
+    margin-top: 1.5em;
+}
+#navMenuTitle{
+    text-align:center;
+    height: 7vmax;
+    width: 23vmax;
+    background-color: #005F73;
+    border-radius: 8px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    font-size: 2.5vmax;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+}
+#navMenuTitle h3{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#navMenu{
+    text-align: left;
+    line-height: 2;
+    background-color: #E76F51;
+    border-left-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: .7em; 
+    height: 11vmax;
+    padding: 1em;
+    position: absolute;
+    top: 8.2vmax;
+    right: 0px;
+    left: 0px;
+}
+.navItem{
+   font-size: 1.7vmax; 
+}
+#currentPage{
+    color: white;
+    cursor: default;
+}
+#textProducer{
+    background-color: #F4A261;
+    margin-top: 1em;
+    width: 42vmax;
+    height: 50vmax;
+    padding: 1em;
+    border-radius: 8px;
+    position: relative;
+    left: 1.5em;
+    font-size: 1.8vmax;
+}

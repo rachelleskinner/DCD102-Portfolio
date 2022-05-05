@@ -1,0 +1,106 @@
+body {
+ background-image: linear-gradient(to bottom, #FFADAD, #FFD6A5, #FDFFB6, #CAFFBF, #9BF6FF, #A0C4FF, #BDB2FF);
+ font-family: 'Cutive', serif;
+ margin: 10%;
+ margin-top: 5%;
+}
+a {
+ color: black;
+ text-decoration:;
+}
+a:hover{
+    color: white;
+}
+#heading{
+    background-color: #EE4266;
+    height: 12vmax;
+    width: 75vmax;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+}
+#title{
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 4px;
+    font-size: 6vmax;
+    position: absolute;
+    top: -0.4em;
+}
+#author{
+    font-weight: 700;
+    position: absolute;
+    bottom: 1.5em;
+    right: 1em;
+    font-size: 1.5vmax;
+}
+#designer{
+    font-weight: 700;
+    position: absolute;
+    bottom: 0px;
+    right: 1em;
+    font-size: 1.5vmax;
+}
+#entireNavigation{
+    float: right;
+    width: 25vmax;
+    height: 30vmax;
+    position: relative;
+    right: 4em;
+    margin-top: 1.5em;
+}
+#navMenuTitle{
+    text-align:center;
+    height: 7vmax;
+    width: 23vmax;
+    background-color: #3BCEAC;
+    border-radius: 8px;
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5vmax;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+}
+#navMenuTitle h3{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#navMenu{
+    text-align: left;
+    line-height: 2.5;
+    background-color: #0EAD69;
+    border-left-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: .7em; 
+    height: 11vmax;
+    padding: 1em;
+    position: absolute;
+    top: 8.2vmax;
+    right: 0px;
+    left: 0px;
+}
+.navItem{
+   font-size: 1.4vmax; 
+}
+#currentPage{
+    color: white;
+    cursor: default;
+}
+#textProducer{
+    background-color: #FFD23F;
+    margin-top: 1em;
+    width: 42vmax;
+    height: 43vmax;
+    padding: 1em;
+    border-radius: 8px;
+    position: relative;
+    left: 2em;
+    font-size: 1.5vmax;
+}
